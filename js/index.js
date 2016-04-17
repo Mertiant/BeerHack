@@ -5,18 +5,11 @@ var data = {
 
 
 function find(name) {
-    //no such array
- //   if(!data[beer])
-//        return;
-
-    //search array for key
-  //  var beer = data[beer];
-    for(var i = 0; i < beer.length; ++i) {
-        //if the name is what we are looking for return it
-        if(beer[i].name === name)
-
-            window.document.location.href = 'productPage.html';
-    }
+    var s = name;
+    if (s == "stella"){ window.document.location.href = 'productPage.html';
+    }else if (s == "immortal") { window.document.location.href = 'productPage1.html';
+    }else if (s == "bud") { window.document.location.href = 'productPage2.html';
+    }else if (s == "goose") { window.document.location.href = 'productPage3.html';
 }
 document.addEventListener("deviceready", init, false);
 function init() {
