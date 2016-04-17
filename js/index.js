@@ -4,7 +4,7 @@ var data = {
            };
 
 
-function find(beer, name) {
+function find(name) {
     //no such array
     if(!data[beer])
         return;
