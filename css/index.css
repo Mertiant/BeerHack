@@ -98,10 +98,9 @@ h5{
 #drone {
   max-width: 100%;
   /* you can use % */
-  height: 150px;
+  height: 100%;
   display: block;
-  margin-left: 0px;
-  margin-right: 0px;
+
 }
 #delivery {
   margin-left:  -10px
