@@ -98,7 +98,7 @@ h5{
 #drone {
   max-width: 100%;
   /* you can use % */
-  height: 100%;
+  height: 25%;
   display: absolute;
 
 }
