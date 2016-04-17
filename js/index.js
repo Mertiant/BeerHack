@@ -10,6 +10,7 @@ function find(name) {
     }else if (s == "immortal") { window.document.location.href = 'productPage1.html';
     }else if (s == "bud") { window.document.location.href = 'productPage2.html';
     }else if (s == "goose") { window.document.location.href = 'productPage3.html';
+    }
 }
 document.addEventListener("deviceready", init, false);
 function init() {
