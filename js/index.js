@@ -35,6 +35,12 @@ function startScan() {
 
             if (result.text=="786150000052") {
                 window.document.location.href = 'productPage.html';
+            }else if(result.text=="817904000124"){
+                window.document.location.href = 'productPage1.html';
+            }else if(result.text=="01816820"){
+                window.document.location.href = 'productPage2.html';
+            }else if(result.text=="736920111174"){
+                window.document.location.href = 'productPage3.html';
             }
         },
         function (error) {
