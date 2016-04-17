@@ -16,9 +16,9 @@ function startScan() {
             resultDiv.innerHTML = s;
 
             if (result.text=="786150000052") {
-                window.navigate("productPage.html");
+                window.document.location.href = 'productPage.html';
             }
-        };
+        },
         function (error) {
             alert("Scanning failed: " + error);
         }
