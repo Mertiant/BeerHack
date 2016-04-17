@@ -14,11 +14,11 @@ function startScan() {
             "Format: " + result.format + "<br/>" +
             "Cancelled: " + result.cancelled;
             resultDiv.innerHTML = s;
-            
+
             if (result.text=="786150000052") {
                 window.navigate("productPage.html");
             }
-        },
+        };
         function (error) {
             alert("Scanning failed: " + error);
         }
