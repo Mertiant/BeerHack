@@ -34,7 +34,7 @@ function startScan() {
                 window.document.location.href = 'productPage2.html';
             }else if(result.text=="736920111174"){
                 window.document.location.href = 'productPage3.html';
-            }
+            }else return result;
         },
         function (error) {
             alert("Scanning failed: " + error);
