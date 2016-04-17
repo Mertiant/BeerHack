@@ -99,7 +99,7 @@ h5{
   max-width: 100%;
   /* you can use % */
   height: 100%;
-  display: block;
+  display: absolute;
 
 }
 #delivery {
