@@ -23,5 +23,19 @@ function startScan() {
             alert("Scanning failed: " + error);
         }
     );
+    $.get(
+    "somepage.php",
+    {paramOne : 1, paramX : 'abc'},
+    function(data) {
+       alert('page content: ' + data);
+    }
+    /*function httpGet(https://api.untappd.com/v4/method_name?access_token=ACESSTOKENHERE)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+}*/
+);
 
 }

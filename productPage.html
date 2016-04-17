@@ -1,21 +1,75 @@
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>A Pen by  Martin</title>
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='http://necolas.github.io/normalize.css/'>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <div class = "container-fluid">
+        <div class = "row">
+            <div class="container">
+            <div class="col-xs-3">
+                <img src ="http://www.jbspourhouse.com/wp-content/uploads/2014/05/stella-artois-lager-bottle.jpg" class ="img-responsive" id = "beer-photo"></img>
+            </div>
 
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
-    </head>
-    <body>
-        <p>
-            <button id="startScan">stupid</button>
-        </p>
+            <div class="row">
+                    <img src ="img/star3.jpg" class="img-responsive" id = "star"></img>
+                    <h5>rating</h5>
+                    <img src ="img/heart3.jpg" class="img-responsive" id = "heart"></img>
+                    <h5>heart</h5>
 
-        <div id="results"></div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-    </body>
+            </div>
+            <div class="col-xs-8">    
+                <h3> Tastes Great! nice feel 6/10 sdafasdfa</h3>
+            </div>
+            </div>
+        </div>
+        <div class="container">  
+        <div class="row">
+            <div class="col-xs-3">
+                <img src="img/unnamed.png"class="img-responsive" id = "drone"></img>
+            </div>
+            <div class="col-xs-6">
+                <table class="table table-striped table-bordered" id="delivery">
+                    <tr>
+                        <td><b>#</b></td>
+                        <td><b>Name</b></td>
+                        <td><b>Distance</b></td> 
+                        <td><b>Quantity</b></td>
+                        <td><b>Price</b></td>
+                        <td><b>Time</b></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Name</td>
+                        <td>Distance</td> 
+                        <td>Quantity</td>
+                        <td>Price</td>
+                        <td>Time</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <a href="commercial1.html"><img src="img/video.jpg" class="img-responsive"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3">
+                        <h>commerical video</h>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+  <script src='https://raw.githubusercontent.com/apache/cordova-js/master/src/cordova.js'></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+  <script src="js/productPage.js"></script>
 </html>
