@@ -6,11 +6,11 @@ var data = {
 
 function find(name) {
     //no such array
-    if(!data[beer])
-        return;
+ //   if(!data[beer])
+//        return;
 
     //search array for key
-    var beer = data[beer];
+  //  var beer = data[beer];
     for(var i = 0; i < beer.length; ++i) {
         //if the name is what we are looking for return it
         if(beer[i].name === name)
