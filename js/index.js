@@ -1,5 +1,17 @@
 var resultDiv;
+var data = { 
+             beer: [{ name: 'stella artois', links: 'productPage.html' }], 
+           };
 
+
+function find(name) {
+    var s = name;
+    if (s == "stella"){ window.document.location.href = 'productPage.html';
+    }else if (s == "immortal") { window.document.location.href = 'productPage1.html';
+    }else if (s == "bud") { window.document.location.href = 'productPage2.html';
+    }else if (s == "goose") { window.document.location.href = 'productPage3.html';
+    }
+}
 document.addEventListener("deviceready", init, false);
 function init() {
     document.querySelector("#startScan").addEventListener("touchend", startScan, false);
@@ -17,7 +29,13 @@ function startScan() {
 
             if (result.text=="786150000052") {
                 window.document.location.href = 'productPage.html';
-            }
+            }else if(result.text=="817904000124"){
+                window.document.location.href = 'productPage1.html';
+            }else if(result.text=="01816820"){
+                window.document.location.href = 'productPage2.html';
+            }else if(result.text=="736920111174"){
+                window.document.location.href = 'productPage3.html';
+            }else return result;
         },
         function (error) {
             alert("Scanning failed: " + error);

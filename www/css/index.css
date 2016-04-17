@@ -113,9 +113,16 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+<<<<<<< HEAD
 #startScan{
     margin: 0 auto;
     height:500px;
     width: 500px%;
 }
 form a { margin-left: 5px; }
+=======
+button{
+    height:132px;
+    width: 132px;
+}
+>>>>>>> a1612420647ee34ad424aeb41096f4f091dec77b
